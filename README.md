@@ -13,12 +13,12 @@ Codelab link: [Create an interactive Dice Roller app](https://developer.android.
 ## Create an interactive Dice Roller app
 
 <div align="center">
-<img align="center" alt="Run-Tests-Gif" src="https://github.com/knludi/DiceRoller/blob/master/README/dice-roller.gif">
+<img align="center" alt="Run-Tests-Gif" height="500" src="https://github.com/knludi/DiceRoller/blob/master/README/dice-roller.gif"
 </div>
 
 
 ## Practice on your own
 <div align="center">
-<img align="center" alt="Run-Tests-Gif" src="https://github.com/knludi/DiceRoller/blob/master/README/dice-roller-2.gif">
+<img align="center" alt="Run-Tests-Gif" height="500" src="https://github.com/knludi/DiceRoller/blob/master/README/dice-roller-2.gif">
 </div>
 
