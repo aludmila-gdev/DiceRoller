@@ -14,21 +14,24 @@ class MainActivity : AppCompatActivity() {
 
         rollButton.setOnClickListener {
             rollDice()
-            val toast = Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT).show()
         }
 
     }
 
     private fun rollDice() {
-        val resultTextView: TextView = findViewById(R.id.textView)
+        val resultDice1: TextView = findViewById(R.id.textViewResultDice1)
+        val resultDice2: TextView = findViewById(R.id.textViewResultDice2)
         val dice = Dice(6)
-        resultTextView.text = dice.roll().toString()
+        resultDice1.text = dice.roll().toString()
+        resultDice2.text = dice.roll().toString()
     }
 }
 
 class Dice(private val numSides: Int) {
 
     fun roll(): Int {
+
         return (1..numSides).random()
     }
 }
